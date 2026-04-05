@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+dist/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# uv
+.uv/
+uv.lock
+
+# Node / Bun
+node_modules/
+bun.lock
+
+# Build
+frontend/dist/
+
+# Test results
+test-results/
+test-reports/
+htmlcov/
+.coverage
+coverage.xml
+junit*.xml
+frontend/test-results/
+frontend/playwright-report/
+frontend/playwright/.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
+
+# Resource
+pdf/
